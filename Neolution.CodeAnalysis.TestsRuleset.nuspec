@@ -6,7 +6,7 @@
     <title>Neolution Code Analysis for Test Projects</title>
     <authors>Neolution AG</authors>
     <description>Configures Code Analysis for Neolution Test Projects.</description>
-    <projectUrl>https://github.com/neolution-ch/Neolution.CodeAnalysis</projectUrl>
+    <projectUrl>https://github.com/collana-solutions/Neolution.CodeAnalysis</projectUrl>
     <readme>docs\README.md</readme>
     <license type="expression">MIT</license>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
