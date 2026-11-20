@@ -20,10 +20,11 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="..\build\Csag.CodeAnalysis.TestsRuleset.props" target="build\Csag.CodeAnalysis.TestsRuleset.props" />
-    <file src="..\build\Csag.CodeAnalysis.globalconfig" target="build\Csag.CodeAnalysis.globalconfig" />
-    <file src="..\build\Csag.CodeAnalysis.TestsRuleset.globalconfig" target="build\Csag.CodeAnalysis.TestsRuleset.globalconfig" />
-    <file src="..\build\stylecop.json" target="build\stylecop.json" />
+    <file src="build\Csag.CodeAnalysis.TestsRuleset.props" target="build\Csag.CodeAnalysis.TestsRuleset.props" />
+    <!-- The base rules and stylecop.json are those of Csag.CodeAnalysis. -->
+    <file src="..\Csag.CodeAnalysis\build\Csag.CodeAnalysis.globalconfig" target="build\Csag.CodeAnalysis.globalconfig" />
+    <file src="build\Csag.CodeAnalysis.TestsRuleset.globalconfig" target="build\Csag.CodeAnalysis.TestsRuleset.globalconfig" />
+    <file src="..\Csag.CodeAnalysis\build\stylecop.json" target="build\stylecop.json" />
     <file src="..\README.md" target="docs\" />
     <file src="..\icon.png" target="" />
   </files>

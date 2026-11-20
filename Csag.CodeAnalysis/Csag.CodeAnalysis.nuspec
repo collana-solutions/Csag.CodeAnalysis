@@ -20,9 +20,9 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="..\build\Csag.CodeAnalysis.props" target="build\Csag.CodeAnalysis.props" />
-    <file src="..\build\Csag.CodeAnalysis.globalconfig" target="build\Csag.CodeAnalysis.globalconfig" />
-    <file src="..\build\stylecop.json" target="build\stylecop.json" />
+    <file src="build\Csag.CodeAnalysis.props" target="build\Csag.CodeAnalysis.props" />
+    <file src="build\Csag.CodeAnalysis.globalconfig" target="build\Csag.CodeAnalysis.globalconfig" />
+    <file src="build\stylecop.json" target="build\stylecop.json" />
     <file src="..\README.md" target="docs\" />
     <file src="..\icon.png" target="" />
   </files>
