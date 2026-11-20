@@ -56,9 +56,9 @@ jobs:
           # In prerelease mode package.json holds a prerelease such as 2.0.0-rc.0, and the
           # preview extends it to 2.0.0-rc.0.pr.42.183, which sorts after that prerelease
           # and before the next one (2.0.0-rc.1).
-          # Either way the preview sorts after the current release, and a consumer that
-          # moves only some packages of a fixed group to it gets a NU1605 downgrade error
-          # instead of a silent mix. The run number makes every push a new version,
+          # Either way the preview sorts after the current release. The two packages do not
+          # depend on each other, so NuGet does not check that a consumer moves both to the
+          # same preview. The run number makes every push a new version,
           # because NuGet caches packages by id and version and never downloads the same
           # version twice.
           BASE=$(node -p "require('./Csag.CodeAnalysis/package.json').version")
