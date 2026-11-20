@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Csag.CodeAnalysis</id>
+    <version>$version$</version>
+    <title>Csag Code Analysis</title>
+    <authors>collana solutions AG</authors>
+    <description>Configures Code Analysis for collana solutions projects.</description>
+    <projectUrl>https://github.com/collana-solutions/Csag.CodeAnalysis</projectUrl>
+    <repository type="git" url="https://github.com/collana-solutions/Csag.CodeAnalysis" />
+    <icon>icon.png</icon>
+    <readme>docs\README.md</readme>
+    <license type="expression">MIT</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>true</developmentDependency>
+    <releaseNotes>https://github.com/collana-solutions/Csag.CodeAnalysis/blob/main/Csag.CodeAnalysis/CHANGELOG.md</releaseNotes>
+    <dependencies>
+      <dependency id="StyleCop.Analyzers.Unstable" version="1.2.0.556" />
+      <dependency id="SonarAnalyzer.CSharp" version="9.20.0.85982" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\build\Csag.CodeAnalysis.props" target="build\Csag.CodeAnalysis.props" />
+    <file src="..\build\Csag.CodeAnalysis.globalconfig" target="build\Csag.CodeAnalysis.globalconfig" />
+    <file src="..\build\stylecop.json" target="build\stylecop.json" />
+    <file src="..\README.md" target="docs\" />
+    <file src="..\icon.png" target="" />
+  </files>
+</package>

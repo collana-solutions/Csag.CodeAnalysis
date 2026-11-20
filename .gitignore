@@ -1,4 +1,12 @@
-
+# Build output
+[Bb]in/
+[Oo]bj/
+nupkgs/
 *.nupkg
 
-*.exe
+# Visual Studio
+.vs/
+*.user
+
+# pnpm
+node_modules/

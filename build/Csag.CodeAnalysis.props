@@ -3,7 +3,7 @@
 
   <PropertyGroup>
     <Configuration Condition="'$(Configuration)' == ''">Debug</Configuration>
-    <GenerateDocumentationFile>true</GenerateDocumentationFile>    
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <WarningsNotAsErrors>NU1901;NU1902;NU1903;NU1904</WarningsNotAsErrors>
   </PropertyGroup>
 
@@ -15,8 +15,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <GlobalAnalyzerConfigFiles Include="$(MSBuildThisFileDirectory)Neolution.CodeAnalysis.globalconfig" Link=".globalconfig" />
-    <GlobalAnalyzerConfigFiles Include="$(MSBuildThisFileDirectory)Neolution.CodeAnalysis.TestsRuleset.globalconfig" Link=".tests.globalconfig" />
+    <GlobalAnalyzerConfigFiles Include="$(MSBuildThisFileDirectory)Csag.CodeAnalysis.globalconfig" Link=".globalconfig" />
     <AdditionalFiles Include="$(MSBuildThisFileDirectory)stylecop.json" Link="stylecop.json" />
   </ItemGroup>
   
