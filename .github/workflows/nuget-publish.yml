@@ -20,7 +20,7 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: Release tag of the anchor package, for example @collana-solutions/csag-code-analysis@3.2.2
+        description: Release tag of the anchor package, for example @collana-solutions/csag-codeanalysis@3.2.2
         required: true
         type: string
 
@@ -34,7 +34,7 @@ jobs:
     # group would never be published, so .changeset/config.json has exactly one fixed group, which
     # holds every packed project (or the single package), and the anchor is one of them. The publish
     # job needs this one, so it is skipped together with it.
-    if: startsWith(inputs.tag || github.event.release.tag_name, '@collana-solutions/csag-code-analysis@')
+    if: startsWith(inputs.tag || github.event.release.tag_name, '@collana-solutions/csag-codeanalysis@')
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -56,7 +56,7 @@ jobs:
         env:
           TAG: ${{ inputs.tag || github.event.release.tag_name }}
         run: |
-          # Tag format: @collana-solutions/csag-code-analysis@3.2.2
+          # Tag format: @collana-solutions/csag-codeanalysis@3.2.2
           echo "version=${TAG##*@}" >> "$GITHUB_OUTPUT"
 
       - name: Restore

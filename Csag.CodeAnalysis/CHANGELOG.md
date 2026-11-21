@@ -1,4 +1,4 @@
-# @collana-solutions/csag-code-analysis
+# @collana-solutions/csag-codeanalysis
 
 ## 3.2.2
 

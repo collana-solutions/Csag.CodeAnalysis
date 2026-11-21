@@ -7,8 +7,8 @@
   "commit": false,
   "fixed": [
     [
-      "@collana-solutions/csag-code-analysis",
-      "@collana-solutions/csag-code-analysis-tests-ruleset"
+      "@collana-solutions/csag-codeanalysis",
+      "@collana-solutions/csag-codeanalysis-testsruleset"
     ]
   ],
   "linked": [],
