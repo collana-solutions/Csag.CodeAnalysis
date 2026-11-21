@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <!-- The workflows restore with locked mode, so every project keeps a packages.lock.json. -->
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+  </PropertyGroup>
+</Project>

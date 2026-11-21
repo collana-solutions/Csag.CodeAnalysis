@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Csag.CodeAnalysis.TestsRuleset/Csag.CodeAnalysis.TestsRuleset.csproj" />
+  <Project Path="Csag.CodeAnalysis/Csag.CodeAnalysis.csproj" />
+</Solution>
