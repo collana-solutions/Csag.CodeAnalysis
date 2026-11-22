@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Csag.CodeAnalysis.TestsRuleset</id>
+    <version>$version$</version>
+    <title>Csag Code Analysis for Test Projects</title>
+    <authors>collana solutions AG</authors>
+    <description>Configures Code Analysis for collana solutions test projects.</description>
+    <projectUrl>https://github.com/collana-solutions/Csag.CodeAnalysis</projectUrl>
+    <repository type="git" url="https://github.com/collana-solutions/Csag.CodeAnalysis" />
+    <icon>icon.png</icon>
+    <readme>docs\README.md</readme>
+    <license type="expression">MIT</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>true</developmentDependency>
+    <releaseNotes>https://github.com/collana-solutions/Csag.CodeAnalysis/blob/main/Csag.CodeAnalysis.TestsRuleset/CHANGELOG.md</releaseNotes>
+    <dependencies>
+      <dependency id="StyleCop.Analyzers.Unstable" version="1.2.0.556" />
+      <dependency id="SonarAnalyzer.CSharp" version="9.20.0.85982" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="build\Csag.CodeAnalysis.TestsRuleset.props" target="build\Csag.CodeAnalysis.TestsRuleset.props" />
+    <!-- The base rules and stylecop.json are those of Csag.CodeAnalysis. -->
+    <file src="..\Csag.CodeAnalysis\build\Csag.CodeAnalysis.globalconfig" target="build\Csag.CodeAnalysis.globalconfig" />
+    <file src="build\Csag.CodeAnalysis.TestsRuleset.globalconfig" target="build\Csag.CodeAnalysis.TestsRuleset.globalconfig" />
+    <file src="..\Csag.CodeAnalysis\build\stylecop.json" target="build\stylecop.json" />
+    <file src="..\README.md" target="docs\" />
+    <file src="..\icon.png" target="" />
+  </files>
+</package>
