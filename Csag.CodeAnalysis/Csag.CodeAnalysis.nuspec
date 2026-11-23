@@ -16,7 +16,7 @@
     <releaseNotes>https://github.com/collana-solutions/Csag.CodeAnalysis/blob/main/Csag.CodeAnalysis/CHANGELOG.md</releaseNotes>
     <dependencies>
       <dependency id="StyleCop.Analyzers.Unstable" version="1.2.0.556" />
-      <dependency id="SonarAnalyzer.CSharp" version="9.20.0.85982" />
+      <dependency id="SonarAnalyzer.CSharp" version="9.32.0.97167" />
     </dependencies>
   </metadata>
   <files>
