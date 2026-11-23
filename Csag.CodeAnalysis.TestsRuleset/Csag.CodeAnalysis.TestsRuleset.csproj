@@ -4,7 +4,7 @@
        dependencies come from the .nuspec, so the package targets no framework and its dependencies
        apply to every consumer. The project itself compiles nothing that goes into the package. -->
   <PropertyGroup>
-    <Version>3.2.2</Version>
+    <Version>3.3.0</Version>
     <TargetFramework>net10.0</TargetFramework>
     <NuspecFile>Csag.CodeAnalysis.TestsRuleset.nuspec</NuspecFile>
     <NuspecProperties>version=$(Version)</NuspecProperties>
